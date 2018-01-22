@@ -29,10 +29,10 @@
 				<h3>{{ story.oneTitle }}</h3>
 				<div class="clickable-image" id="firstclick">
                   <img :src="'assets/'+story.one">
-                  <p class="explain" id="oneExplain">{{ story.oneText }}</p>
-				  <p class="explain">{{ story.oneText2 }}</p>
-				  <svg id="buttonsp1" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                     <g id="forward1" transform="translate(548,740)" v-on:click="moveTo('two')">
+                  <p class="explain" id="oneExplain">{{ story.oneLegend }}</p>
+				  <p class="explain" id="oneExplain2">{{ story.oneLegend2 }}</p>
+				  <svg id="buttonsp1" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                     <g id="forward1" transform="translate(548,940)" v-on:click="moveTo('two')">
 					 <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                      <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
 					 </g>
@@ -49,12 +49,12 @@
                     <p class="explain" id="twoExplain">{{ story.twoLegend }}</p>
 					<p class="explain" id="twoExplain2">{{ story.twoLegend2 }}</p>
 					<p class="explain" id="twoExplain3">{{ story.twoLegend3 }}</p>
-					<svg id="buttonsp2" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                        <g transform="translate(548,740)" v-on:click="moveTo('three')">
+					<svg id="buttonsp2" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                        <g transform="translate(548,940)" v-on:click="moveTo('three')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
                         </g>
-						<g transform="translate(33,740)" v-on:click="moveTo('one')">
+						<g transform="translate(33,940)" v-on:click="moveTo('one')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>
@@ -71,12 +71,12 @@
                     <p class="explain" id="threeExplain">{{ story.threeLegend }}</p>
 					<p class="explain" id="threeExplain2">{{ story.threeLegend2 }}</p>
 					<p class="explain" id="threeExplain3">{{ story.threeLegend3 }}</p>
-					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                        <g transform="translate(548,740)" v-on:click="moveTo('four')">
+					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                        <g transform="translate(548,940)" v-on:click="moveTo('four')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
                         </g>
-						<g transform="translate(33,740)" v-on:click="moveTo('two')">
+						<g transform="translate(33,940)" v-on:click="moveTo('two')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>
@@ -93,12 +93,13 @@
                     <p class="explain" id="fourExplain">{{ story.fourLegend }}</p>
 					<p class="explain" id="fourExplain2">{{ story.fourLegend2 }}</p>
 					<p class="explain" id="fourExplain3">{{ story.fourLegend3 }}</p>
-					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                        <g transform="translate(548,740)" v-on:click="moveTo('five')">
+					<p class="explain" id="fourExplain4"><i>{{ story.fourLegend4 }}</i></p>
+					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                        <g transform="translate(548,940)" v-on:click="moveTo('five')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
                         </g>
-						<g transform="translate(33,740)" v-on:click="moveTo('three')">
+						<g transform="translate(33,940)" v-on:click="moveTo('three')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>
@@ -114,12 +115,12 @@
                     <p class="explain" id="fiveExplain">{{ story.fiveLegend }}</p>
 					<p class="explain" id="fiveExplain2">{{ story.fiveLegend2 }}</p>
 					<p class="explain" id="fiveExplain3">{{ story.fiveLegend3 }}</p>
-					<svg id="buttonsp5" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                        <g transform="translate(548,740)" v-on:click="moveTo('six')">
+					<svg id="buttonsp5" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                        <g transform="translate(548,940)" v-on:click="moveTo('six')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
                         </g>
-						<g transform="translate(33,740)" v-on:click="moveTo('four')">
+						<g transform="translate(33,940)" v-on:click="moveTo('four')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>
@@ -134,13 +135,13 @@
                     <img :src="'assets/'+story.six">
                     <p class="explain" id="sixExplain">{{ story.sixLegend }}</p>
 					<p class="explain" id="sixExplain2">{{ story.sixLegend2 }}</p>
-					<p class="explain" id="sixExplain3">{{ story.sixLegend3 }}</p>
-					<svg id="buttonsp6" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
-                        <g transform="translate(548,740)" v-on:click="moveTo('seven')">
+					<p class="explain" id="sixExplain3"><i>{{ story.sixLegend3 }}</i></p>
+					<svg id="buttonsp6" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+                        <g transform="translate(548,940)" v-on:click="moveTo('seven')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
                         </g>
-						<g transform="translate(33,740)" v-on:click="moveTo('five')">
+						<g transform="translate(33,940)" v-on:click="moveTo('five')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>
@@ -157,9 +158,9 @@
                     <p class="explain" id="sevenExplain">{{ story.sevenLegend }}</p>
 					<p class="explain" id="sevenExplain2">{{ story.sevenLegend2 }}</p>
 					<p class="explain" id="sevenExplain3">{{ story.sevenLegend3 }}</p>
-					<svg id="buttonsp7" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+					<svg id="buttonsp7" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
                        
-						<g transform="translate(33,740)" v-on:click="moveTo('six')">
+						<g transform="translate(33,940)" v-on:click="moveTo('six')">
                         <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
 						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
                         </g>

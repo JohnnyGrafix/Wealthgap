@@ -1,46 +1,49 @@
 title : Global wealth gap: Oxfam report
 
 one: wealthGap_1.svg
-oneTitle: xxx
-oneText: xxx
+oneTitle: Findings published, Jan 2018
+oneLegend: In the year 2017 
+oneLegend2: The richest 1% raked in 82 percent of wealth created
 
 two: wealthGap_2.svg
-twoTitle: xxx
-twoLegend: xxx
-twoLegend2: xxx
-twoLegend3: xxx
+twoTitle: 
+twoLegend: 
+twoLegend2: Since 2015 the richest 1% has owned more wealth than the other 99% of the planet
+twoLegend3: 
 
 three: wealthGap_3.svg
-threeTitle: xxx
-threeLegend: xxx
-threeLegend2: xxx
-threeLegend3: xxx
+threeTitle: 
+threeLegend: 42 people own the same amount of wealth as the poorest 3.7 billion people
+threeLegend2: 
+threeLegend3: 
 
 four: wealthGap_4.svg
-fourTitle: xxx
-fourLegend: xxx
-fourLegend2: xxx
-fourLegend3: xxxx
+fourTitle: 
+fourLegend: There are 2,043 dollar billionaires worldwide
+fourLegend2: 9 out of 10 of them are men
+fourLegend3: 2017
+fourLegend4: 2,000
 
 five: wealthGap_5.svg
-fiveTitle: xxx
-fiveLegend: xxx
-fiveLegend2: xxx
-fiveLegend3: xxx
+fiveTitle: 
+fiveLegend: Billionaires saw their wealth increase by $762 b in the last 12 months
+fiveLegend2: On average they saw a 13% rise of wealth per year since 2006
+fiveLegend3: 2006
+fiveLegend4: 
 
 six: wealthGap_6.svg
-sixTitle: xxx
-sixLegend: xxxx
-sixLegend2: xxx
-sixLegend3: xxxx
+sixTitle: 
+sixLegend: According to Oxfam approximately two thirds of billionaire wealth is product of inheritance, monopoly, and cronyism
+sixLegend2: 2017 
+sixLegend3: $7 trillion
 
 seven: wealthGap_7.svg
-sevenTitle: xxx
-sevenLegend: xxx
-sevenLegend2: xxx
-sevenLegend3: xxx
+sevenTitle: 
+sevenLegend: According to an Oxfam evaluation with economist Gabriel Zucman, the richest 1% in the world are evading an estimated $200 billion  a year of tax
+sevenLegend2:
+sevenLegend3:
 
-sources : Sources: xxx 
+sources : Sources: Oxfam - Reward work, not wealth/World Inequality Report 2018
 
 lastUpdate.key: Last update:
 lastUpdate.value: Jan 19 2018 07:00:00

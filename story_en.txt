@@ -1,14 +1,44 @@
-title : East China sea shipping disaster
+title : Global wealth gap: Oxfam report
 
-one: smoke-01.png
-oneTitle: Collision January 6
-oneText: Leads to biggest known oil condensate spill
+one: wealthGap_1.svg
+oneTitle: xxx
+oneText: xxx
 
-two: tanker_1-01.svg
-twoTitle: Collision January 6
-twoLegend: Iranian oil tanker Sanchi collided with a Hong Kong-registered cargo ship
-twoLegend2: The accident took place 296km east of Shanghai
-twoLegend3: The crew of the cargo ship escaped unhurt. The 32 crew members of the tanker went missing
+two: wealthGap_2.svg
+twoTitle: xxx
+twoLegend: xxx
+twoLegend2: xxx
+twoLegend3: xxx
+
+three: wealthGap_3.svg
+threeTitle: xxx
+threeLegend: xxx
+threeLegend2: xxx
+threeLegend3: xxx
+
+four: wealthGap_4.svg
+fourTitle: xxx
+fourLegend: xxx
+fourLegend2: xxx
+fourLegend3: xxxx
+
+five: wealthGap_5.svg
+fiveTitle: xxx
+fiveLegend: xxx
+fiveLegend2: xxx
+fiveLegend3: xxx
+
+six: wealthGap_6.svg
+sixTitle: xxx
+sixLegend: xxxx
+sixLegend2: xxx
+sixLegend3: xxxx
+
+seven: wealthGap_7.svg
+sevenTitle: xxx
+sevenLegend: xxx
+sevenLegend2: xxx
+sevenLegend3: xxx
 
 sources : Sources: xxx 
 

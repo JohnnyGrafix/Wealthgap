@@ -39,6 +39,7 @@
                     </svg>
                 </div>
 				</div>
+				
 				<!--second page-->
                 <div class="pages" id="pagetwo">
 				<h1>{{ story.title }}</h1>
@@ -62,10 +63,109 @@
 				</div>
 				
                 <!--third page-->
-                <!--fourth page-->
+                <div class="pages" id="pagethree">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.threeTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.three">
+                    <p class="explain" id="threeExplain">{{ story.threeLegend }}</p>
+					<p class="explain" id="threeExplain2">{{ story.threeLegend2 }}</p>
+					<p class="explain" id="threeExplain3">{{ story.threeLegend3 }}</p>
+					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                        <g transform="translate(548,740)" v-on:click="moveTo('four')">
+						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                        <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+                        </g>
+						<g transform="translate(33,740)" v-on:click="moveTo('two')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
+				
+				<!--fourth page-->
+                <div class="pages" id="pagefour">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.fourTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.four">
+                    <p class="explain" id="fourExplain">{{ story.fourLegend }}</p>
+					<p class="explain" id="fourExplain2">{{ story.fourLegend2 }}</p>
+					<p class="explain" id="fourExplain3">{{ story.fourLegend3 }}</p>
+					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                        <g transform="translate(548,740)" v-on:click="moveTo('five')">
+						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                        <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+                        </g>
+						<g transform="translate(33,740)" v-on:click="moveTo('three')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
 			    <!--fifth page-->
+				<div class="pages" id="pagefive">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.fiveTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.five">
+                    <p class="explain" id="fiveExplain">{{ story.fiveLegend }}</p>
+					<p class="explain" id="fiveExplain2">{{ story.fiveLegend2 }}</p>
+					<p class="explain" id="fiveExplain3">{{ story.fiveLegend3 }}</p>
+					<svg id="buttonsp5" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                        <g transform="translate(548,740)" v-on:click="moveTo('six')">
+						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                        <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+                        </g>
+						<g transform="translate(33,740)" v-on:click="moveTo('four')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
                 <!--sixth page-->
-                <!--seventh page-->
+                <div class="pages" id="pagesix">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.sixTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.six">
+                    <p class="explain" id="sixExplain">{{ story.sixLegend }}</p>
+					<p class="explain" id="sixExplain2">{{ story.sixLegend2 }}</p>
+					<p class="explain" id="sixExplain3">{{ story.sixLegend3 }}</p>
+					<svg id="buttonsp6" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                        <g transform="translate(548,740)" v-on:click="moveTo('seven')">
+						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                        <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+                        </g>
+						<g transform="translate(33,740)" v-on:click="moveTo('five')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
+                
+				<!--seventh page-->
+				<div class="pages" id="pageseven">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.sevenTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.seven">
+                    <p class="explain" id="sevenExplain">{{ story.sevenLegend }}</p>
+					<p class="explain" id="sevenExplain2">{{ story.sevenLegend2 }}</p>
+					<p class="explain" id="sevenExplain3">{{ story.sevenLegend3 }}</p>
+					<svg id="buttonsp7" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                       
+						<g transform="translate(33,740)" v-on:click="moveTo('six')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
                 
         </main>
     	  <p style="margin: 0;"><i>{{ story.sources }}</i></P>

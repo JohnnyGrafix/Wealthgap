@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wealth gap 2017</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="vendor/afp/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./vendor/normalize/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./vendor/afp/global.css" />
+    <link rel="stylesheet" href="https://unpkg.com/vue-twentytwenty/dist/vue-twentytwenty.css" />
+
+    <!-- Your styles here -->
+    <link rel="stylesheet" type="text/css" href="./app.css" />
+</head>
+
+<body>
+    <!-- The main app -->
+    <div id="app">
+      <div class="loader" v-if="!loaded"></div>
+      <div class="loaded" v-else>
+            
+      <main>
+			
+		<!--first page-->
+			    
+				<div class="pages" id="pageone">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.oneTitle }}</h3>
+				<div class="clickable-image" id="firstclick">
+                  <img :src="'assets/'+story.one">
+                  <p class="explain" id="oneExplain">{{ story.oneText }}</p>
+				  <p class="explain">{{ story.oneText2 }}</p>
+				  <svg id="buttonsp1" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                     <g id="forward1" transform="translate(548,740)" v-on:click="moveTo('two')">
+					 <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                     <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+					 </g>
+                    </svg>
+                </div>
+				</div>
+				<!--second page-->
+                <div class="pages" id="pagetwo">
+				<h1>{{ story.title }}</h1>
+				<h3>{{ story.twoTitle }}</h3>
+				<div class="clickable-image">
+                    <img :src="'assets/'+story.two">
+                    <p class="explain" id="twoExplain">{{ story.twoLegend }}</p>
+					<p class="explain" id="twoExplain2">{{ story.twoLegend2 }}</p>
+					<p class="explain" id="twoExplain3">{{ story.twoLegend3 }}</p>
+					<svg id="buttonsp2" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 800">
+                        <g transform="translate(548,740)" v-on:click="moveTo('three')">
+						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+                        <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
+                        </g>
+						<g transform="translate(33,740)" v-on:click="moveTo('one')">
+                        <circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
+						<circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="30.02 -5.62 0.52 13.12 30.02 30.61"/>
+                        </g>
+                    </svg>
+				</div>
+				</div>
+				
+                <!--third page-->
+                <!--fourth page-->
+			    <!--fifth page-->
+                <!--sixth page-->
+                <!--seventh page-->
+                
+        </main>
+    	  <p style="margin: 0;"><i>{{ story.sources }}</i></P>
+        <footer>
+                <credits :lang="story.lang" :lastupdate="story.lastUpdate" :sources="story.sources"></credits>
+                <logo></logo>
+        </footer>
+        </div>
+    </div>
+
+    <!-- Vendor scripts -->
+    <script src="https://graphics.afpforum.com/vendors/pym/pym.v1.min.js"></script>
+    <script src="./vendor/vue/vue.min.js"></script>
+    <script src="./vendor/vue/httpVueLoader.js"></script>
+    <script src="./vendor/vue/vue-resource.min.js"></script>
+    <script src="./vendor/vue/vue-router.js"></script>
+    <script src="./vendor/archieml/archieml.js"></script>
+    <script src="https://unpkg.com/vue-twentytwenty/dist/vue-twentytwenty.js"></script>
+
+    <!-- Your script here -->
+    <script src="app.min.js"></script>
+</body>
+
+</html>

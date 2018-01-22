@@ -1,0 +1,116 @@
+#app {
+	max-width: 300px;
+}
+main {
+	width: 300px;
+}
+main img {
+	width: 300px;
+}
+h3 {
+	font-size: 1.7rem;
+	margin-bottom: 4px;
+}
+h1 {
+	margin-top: 8px;
+	font-weight: 600;
+}
+section#credits {
+	z-index: 1000;
+}
+.pages {
+	border-top: 4px solid black;
+	width: 300px;
+	height: 300px;
+	margin-top: 25px;
+	margin-bottom: 400px;
+}
+#pageone {
+	border-top: 0px;
+	margin-top:-15px;
+}
+footer {
+	margin-bottom: 200px;
+}
+.cls-1
+      {fill:#a7a9ac;stroke:#bdb4ab;stroke-width:0.3px;}
+.cls-2{
+	fill:#ffcb05;
+	}
+.cls-3{
+	fill:#a0262a;
+	}
+.cls-2:hover{
+	fill: #ffe17f;
+}
+.cls-3:hover {
+	fill: #8781bd;
+}
+.clickable-image {
+	position: relative;
+}
+.explain {
+	font-size: 1.7rem;
+	line-height: 18px;
+	font-weight: bold;
+	color: black;
+}
+.legend1 {
+	position: absolute;
+	top: 10px;
+	color: #ffcb05;
+	font-size: 1.7rem;
+	line-height: 18px;
+	font-weight: bold;
+	padding: 2px 4px;
+	margin: 0px 8px;
+}
+.clickable-image svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.clickable-image svg g {
+	cursor: pointer;
+}
+.clickable-image svg rect {
+	stroke: #942C61;
+	stroke-width: 4px;
+	fill: #942C61;
+	fill-opacity: 0.7;
+	transition: fill-opacity 0.5s;
+}
+.clickable-image svg:hover rect {
+	fill: white;
+	fill-opacity: 0.4;
+}
+
+@media screen and (min-width: 500px){
+	#app {
+		border-top: 0px;
+		width: 100%;
+		max-width: 600px;
+	}
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+    .pages img {
+		width: 100%;
+	}
+	#pageone {
+	border-top: 4px solid black;
+	width: 90%;
+    }
+	#firstExplain {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	}
+footer {
+	max-width: 600px;
+	margin-top: 50px;
+}
+}

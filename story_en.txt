@@ -39,7 +39,7 @@ sixLegend3: $7 trillion
 
 seven: wealthGap_7.svg
 sevenTitle: 
-sevenLegend: According to an Oxfam evaluation with economist Gabriel Zucman, the richest 1% in the world are evading an estimated $200 billion  a year of tax
+sevenLegend: Citing the Panama and Paradise Paper leaks of the last two years, Oxfam says that the super-rich are hiding at least $7.6 trillion from tax authorities
 sevenLegend2: According to Oxfam approximately two thirds of billionaire wealth is product of inheritance, monopoly, and cronyism
 sevenLegend3:
 

@@ -21,7 +21,7 @@
       <div class="loaded" v-else>
             
       <main>
-			
+			<div class="tidybox1">
 		<!--first page-->
 			    
 				<div class="pages" id="pageone">
@@ -71,7 +71,7 @@
                     <p class="explain" id="threeExplain">{{ story.threeLegend }}</p>
 					<p class="explain" id="threeExplain2">{{ story.threeLegend2 }}</p>
 					<p class="explain" id="threeExplain3">{{ story.threeLegend3 }}</p>
-					<svg id="buttonsp4" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
+					<svg id="buttonsp3" preserveAspectRatio="xMaxYMid" viewBox="0 0 610 1000">
                         <g transform="translate(548,940)" v-on:click="moveTo('four')">
 						<circle class="cls-1" cx="13.12" cy="13.12" r="45"/>
                         <circle class="cls-2" cx="13.12" cy="13.12" r="30"/><polyline class="cls-3" points="4.02 -5.62 30.52 13.12 4.02 30.61"/>
@@ -83,8 +83,10 @@
                     </svg>
 				</div>
 				</div>
-				
+			</div>	
 				<!--fourth page-->
+				
+			<div class="tidybox1">
                 <div class="pages" id="pagefour">
 				<h1>{{ story.title }}</h1>
 				<h3>{{ story.fourTitle }}</h3>
@@ -111,7 +113,7 @@
 				<h1>{{ story.title }}</h1>
 				<h3>{{ story.fiveTitle }}</h3>
 				<div class="clickable-image">
-                    <img :src="'assets/'+story.five">
+                    <img id="fullchart" :src="'assets/'+story.five">
                     <p class="explain" id="fiveExplain">{{ story.fiveLegend }}</p>
 					<p class="explain" id="fiveExplain2">{{ story.fiveLegend2 }}</p>
 					<p class="explain" id="fiveExplain3">{{ story.fiveLegend3 }}</p>
@@ -132,7 +134,7 @@
 				<h1>{{ story.title }}</h1>
 				<h3>{{ story.sixTitle }}</h3>
 				<div class="clickable-image">
-                    <img :src="'assets/'+story.six">
+                    <img id="crony" :src="'assets/'+story.six">
                     <p class="explain" id="sixExplain">{{ story.sixLegend }}</p>
 					<p class="explain" id="sixExplain2">{{ story.sixLegend2 }}</p>
 					<p class="explain" id="sixExplain3"><i>{{ story.sixLegend3 }}</i></p>
@@ -154,7 +156,7 @@
 				<h1>{{ story.title }}</h1>
 				<h3>{{ story.sevenTitle }}</h3>
 				<div class="clickable-image">
-                    <img :src="'assets/'+story.seven">
+                    <img id="moneyman" :src="'assets/'+story.seven">
                     <p class="explain" id="sevenExplain">{{ story.sevenLegend }}</p>
 					<p class="explain" id="sevenExplain2">{{ story.sevenLegend2 }}</p>
 					<p class="explain" id="sevenExplain3">{{ story.sevenLegend3 }}</p>
@@ -167,7 +169,7 @@
                     </svg>
 				</div>
 				</div>
-                
+              </div>  
         </main>
     	  <p style="margin: 0;"><i>{{ story.sources }}</i></P>
         <footer>

@@ -136,6 +136,9 @@ footer {
 	fill: white;
 	fill-opacity: 0.4;
 }
+#sevenExplain2 {
+	display: none;
+}
 
 @media screen and (min-width: 500px){
 	#app {
@@ -143,23 +146,105 @@ footer {
 		width: 100%;
 		max-width: 600px;
 	}
+	#pageone {
+	border-top: 4px solid black;
+	margin-top: 25px;
+}
 	main {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
-    .pages img {
+	.pages {
+		position: relative;
+		width: 30%;
+		margin-bottom: 0px;
+		height: 400px;
+		}
+	.tidybox1 {
+		display: flex;
+		justify-content: center;
 		width: 100%;
+		height: 400px;
+		}
+	.pages img {
+		display: flex;
+		align-items: flex-end;
+		width: 90%;
+		position: absolute;
+		margin-top: 0px;
+		padding-top: 0px;
+		top: 70px;
+	    }
+	.explain {
+		position: absolute;
+		margin: 10px 10px;
 	}
-	#pageone {
-	border-top: 4px solid black;
-	width: 90%;
+	#fullchart {
+		position: absolute;
+		margin-top: 0px;
+		padding-top: 0px;
+		top: 0px;
+		}
+	#fiveExplain3 {
+		top: 230px;
+		margin-left:90px;
+	}
+	#fiveExplain {
+	margin-left: 55px;
+	margin-right: 110px;
+	top: 5px;
     }
-	#firstExplain {
-	position: absolute;
-	top: 10px;
-	left: 20px;
+    #fiveExplain2 {
+	margin-left: 55px;
+	margin-right: 110px;
+	top: 100px;
+    }
+	#sevenExplain {
+		display: none;
 	}
+	#sevenExplain2 {
+		position: absolute;
+		display: block;
+		top: 200px;
+    }
+	#moneyman {
+		position: absolute;
+		top: 0px;
+	}
+    #pagefive h1, #pagefive h3 {
+		display: none;
+	}
+	#pageseven h1 {
+		display: none;
+	}
+	#oneExplain {
+		top: -10px;
+	}
+	#oneExplain2, #twoExplain2, #threeExplain {
+		top: 20px;
+	}
+	#pageone h3 {
+		display: none;
+	}	
+	#pagetwo  h1, #pagethree h1, #pagefour h1, #pagefive h1, #pagesix h1 {
+		opacity: 0;
+	}
+	#pagefour, #pagefive, #pageseven {
+		border-top: 0.2px solid black;
+	}
+	#buttonsp1, #buttonsp2, #buttonsp3, #buttonsp4, #buttonsp5, #buttonsp6, #buttonsp7 {
+		display: none;
+	}
+	#pagefour, #pagesix {
+		display: none;
+	}
+    #pagefive {
+		width: 60%;
+	}	
+	
 footer {
 	max-width: 600px;
 	margin-top: 50px;
